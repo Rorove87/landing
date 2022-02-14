@@ -1,0 +1,117 @@
+/* comentarios */
+
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Chivo', sans-serif;
+}
+
+.header {
+    background-image: url("Images/mathieu-le-roux-6_HqvY1E7NI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+ }
+
+.header h2{
+    color: #586776;
+    font-weight: bold;
+    font-size: 25px;
+ }
+
+ .header a{
+    color: #00145C;
+    text-decoration: none;
+ }
+
+.btn-blue{
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 16px;
+    border-radius: 3px;
+}
+
+.btn-blue:hover {
+    background-color: lightgrey;
+}
+
+.container {
+
+    padding: 10px 5vw;
+}
+
+.container h3 {
+    color: #00145C;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.cards-section a{
+    color: #00145C;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+ }
+
+.card-product {
+   width: 300px;
+   height: 350px;
+   border-radius: 3px;
+   box-shadow: 2px 3px 5px lightgrey;
+   padding: 5px;
+}
+
+.card-product img {
+    width: 280px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+#footer {
+    background-color: #00145C;
+    padding: 5px 0;
+}
+
+#footer {
+    color: white;
+}
+
+.cards-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .cards-section {
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+    }
+}
+
+    @media (max-width: 600px) {
+        .cards-section {
+            grid-template-columns: 1fr;
+        }
+
+        .card-product {
+            width: auto;
+        }
+    }
