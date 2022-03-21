@@ -1,0 +1,40 @@
+/* Cookie Banner */
+.cookie-container {
+	position: fixed;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	background: #2f3640;
+	color: white;
+	padding: 0 32px;
+	box-shadow: 0 -2px 16px rgb(255, 255, 255);
+
+	transition: 400ms;
+}
+
+.cookie-container.active {
+	bottom: 0;
+}
+
+.cookie-container a{
+	color: white;
+}
+
+button {
+	border: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	width: 100px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#close-btn:hover {
+	background-color:lightgrey;
+}
+
+#close-btn {
+	background: darkgrey;
+}

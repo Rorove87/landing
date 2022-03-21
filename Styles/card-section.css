@@ -1,0 +1,47 @@
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.container h3 {
+    color: #00145C;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.cards-section a{
+    color: #00145C;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+ }
+
+.card-product {
+   background-color: white;
+   padding: 16px;
+   border-radius: 5px;
+   margin: 16px 0;
+   text-align: center;
+   box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 40%);
+}
+
+.card-product img {
+    width: 280px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.cards-section {
+/*
+        repeat(auto-fit, minmax(150px, 1fr));
+ */
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+#footer {
+    background-color: #00145C;
+    padding: 5px 0;
+    color: white;
+    text-align: center;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+}
+
+.list-inline li{
+	display: inline;
+}
+
+.sm-button {
+	font-size: 50px;
+	color: rgba(0,0,0,0.4);
+	margin: 0 16px;
+    text-align: center;
+}
+
+.sm-button:hover {
+	color: black;
+}
+
+
+.sm-button {
+    padding: 1px 1px;
+}

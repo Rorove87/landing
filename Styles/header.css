@@ -1,0 +1,24 @@
+.header {
+    background-image: url("../Images/aeropuerto.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 215px 0;
+}
+
+.header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+ }
+
+.header h2{
+    color: #586776;
+    font-weight: bold;
+    font-size: 25px;
+ }
+
+ .header a{
+    color: #00145C;
+    text-decoration: none;
+ }
